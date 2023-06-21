@@ -177,6 +177,7 @@ body {
     letter-spacing: 4px;
     font-size: 40px;
     padding: 10px;
+    color: white;
 
 }
 
@@ -185,6 +186,7 @@ body {
     padding: 4px;
     letter-spacing: 2px;
     font-style: italic;
+
 }
 
 .history>p {
@@ -193,6 +195,7 @@ body {
     padding: 10px;
     font-variant: small-caps;
     letter-spacing: 2px;
+   
 }
 
 .frontImg {
@@ -220,6 +223,7 @@ body {
     font-size: 16px;
     font-style: italic;
     letter-spacing: 3px;
+    color: white;
     padding: 10px;
 }
 
@@ -237,6 +241,7 @@ body {
     font-size: 21px;
     font-style: italic;
     padding: 20px;
+    color: white;
 }
 
 /* CSS FOR SANDWICH */
@@ -396,6 +401,13 @@ details[open]>summary {
     display: none;
 }
 
+footer{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+}
 /* MEDIA QIERYYY */
 
 @media only screen and (max-width:1200px) {
