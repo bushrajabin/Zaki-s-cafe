@@ -7,4 +7,3 @@ function showLinks(){
 function closeLinks(){
     document.getElementById("links2").style.display="none";
 }
-// showLinks();
