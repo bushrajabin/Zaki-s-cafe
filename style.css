@@ -480,6 +480,7 @@ details[open]>summary {
     #food {
         display: flex;
         flex-direction: column;
+justify-content: center;
         /* padding: 0px; */
     }
 
@@ -491,8 +492,14 @@ details[open]>summary {
         flex-direction: row;
         margin: 2px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        align-items: center;
     }
 
+    .f_1>img,.f_2>img,.f_3>img{
+        width: 80px;
+        height: 80px;
+        padding: 0px;
+    }
 
     .txt_1>h3,
     .txt_2>h3,
@@ -508,7 +515,6 @@ details[open]>summary {
         text-align: center;
         font-style: italic;
         letter-spacing: 2px;
-        padding: 2px;
     }
 
 
@@ -526,6 +532,13 @@ details[open]>summary {
         background-color: aliceblue;
     }
 
+    .history>h4{
+        font-size: 18px;
+    }
+
+    .history>p{
+        font-size: 14px;
+    }
     .frontImg {
         width: auto;
         /* padding: 6px; */
