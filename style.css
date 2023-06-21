@@ -72,6 +72,9 @@ body {
     width: 22%;
 
 }
+#links2{
+    display: none;
+}
 
 /* CSS FOR BODYPART */
 .bodyPart {
@@ -103,7 +106,7 @@ body {
 /* CSS FOR FRESH FOOD
  */
 
-.freshFood {
+#food {
     background-color: aliceblue;
     display: flex;
     width: 100%;
@@ -156,7 +159,7 @@ body {
 
 /* CSS FOR ABOUT US  */
 
-.aboutUs {
+#about {
     background-color: aliceblue;
     display: flex;
     flex-direction: row;
@@ -204,7 +207,7 @@ body {
 }
 
 /* CSS FOR MENU */
-.menu {
+#Menuu {
     text-align: center;
 }
 
@@ -311,7 +314,7 @@ details[open]>summary {
     width: 20%;
 }
 
-.gallery {
+#Gallery {
     text-align: center;
     font-family: fantasy;
     letter-spacing: 3px;
@@ -338,7 +341,7 @@ details[open]>summary {
 }
 
 
-.lastPage {
+#addresss{
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -396,7 +399,6 @@ details[open]>summary {
 
 @media only screen and (max-width:1200px) {
     .navBar {
-
         justify-content: space-between;
         align-items: center;
     }
@@ -427,9 +429,9 @@ details[open]>summary {
         background-color: blueviolet;
     }
 
-    .links2 {
+    #links2 {
         background-color: black;
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         padding: 40px;
         font-size: 20px;
@@ -437,17 +439,26 @@ details[open]>summary {
         width: 100%;
         height: 100vh;
         top: 0px;
+
     }
 
-    .links2>a {
+    #links2>a {
         padding: 20px;
         text-decoration: none;
         color: white;
-        font-size: 15px;
+        font-size: 16px;
+    }
+    
+    #close {
+        display: flex;
+        /* width: 20px; */
+        margin-left: 20px;
+        margin: 10px;
+        background-color: aliceblue;
     }
 
-    .links2>img {
-        width: 100px;
+    #links2>img{
+        width: 70px;
     }
 
     .menuIcon {
@@ -456,7 +467,7 @@ details[open]>summary {
     }
 
     .menuIcon>img {
-        width: 30px;
+        width: 50px;
     }
 
     .bodyPart {
@@ -475,7 +486,7 @@ details[open]>summary {
         color: antiquewhite;
     }
 
-    .freshFood {
+    #food {
         display: flex;
         flex-direction: column;
     }
@@ -507,7 +518,7 @@ details[open]>summary {
         letter-spacing: 2px;
     }
 
-    .aboutUs {
+    #about {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -554,9 +565,10 @@ details[open]>summary {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
     }
 
-    .gallery>h2 {
+    #Gallery>h2 {
         color: white;
     }
 
@@ -567,14 +579,16 @@ details[open]>summary {
     }
 
     .pictures>img {
-        width: 85vw;
-        height: 85vw;
+        width: 87vw;
+        height: 80vw;
+        justify-content: center;
+        padding: 5px;
     }
 
-    .lastPage {
+    #addresss{
         display: flex;
         flex-direction: column;
-        padding: 0px;
+        padding: 10px;
     }
 
     .leftSide {
@@ -608,21 +622,8 @@ details[open]>summary {
         width: 93vw;
 
     }
-
-
-    #close {
-        display: flex;
-        width: 40px;
-        margin-left: 20px;
-        margin: 20px;
-        background-color: aliceblue;
-    }
-
-
-    #menuIcon {
-
+    /* #menuIcon {
         background: rgba(255, 255, 255, 0.2);
-
-    }
+    } */
 
 }

@@ -20,11 +20,11 @@
             </div>
             <div class="links">
                 <a href="#">HOME</a>
-                <a href="#menu">MENU</a>
-                <a href="#freshFood">PAGES</a>
-                <a href="#aboutUs">ABOUT US</a>
-                <a href="#gallery">GALLERY</a>
-                <a href="#lastPage">LOCATION</a>
+                <a href="#Menuu">MENU</a>
+                <a href="#food">PAGES</a>
+                <a href="#about">ABOUT US</a>
+                <a href="#Gallery">GALLERY</a>
+                <a href="#addresss">LOCATION</a>
             </div>
         </div>
 
@@ -33,25 +33,25 @@
             <h3>Book Now : 08111955501</h3>
         </div>
 
-        <div class="menuIcon" id="menuIcon" onclick="showLinks()">
-            <img src="./images/hamburger-removebg-preview (1).png" alt="">
+        <div class="menuIcon">
+            <img src="./images/hamburger-removebg-preview (1).png" alt="" onclick="showLinks()">
         </div>
     </nav>
-    <div class="links2" id="links2">
-        <a onclick="closeLinks()" href="#">HOME</a>
-        <a  onclick="closeLinks()" href="#menu">MENU</a>
-        <a onclick="closeLinks()" href="#freshFood">PAGES</a>
-        <a onclick="closeLinks()" href="#aboutUs">ABOUT US</a>
-        <a onclick="closeLinks()" href="#gallery">GALLERY</a>
-        <a onclick="closeLinks()" href="#lastPage">LOCATION</a>
-      <img src="./images/close1437-removebg-preview.png" alt="" onclick="closeLinks()" id="close">
+    <div id="links2">
+        <a href="#">HOME</a>
+        <a onclick="showHome()" href="#Menuu">MENU</a>
+        <a onclick="showHome()" href="#food">PAGES</a>
+        <a onclick="showHome()" href="#about">ABOUT US</a>
+        <a onclick="showHome()" href="#Gallery">GALLERY</a>
+        <a onclick="showHome()" href="#addresss">LOCATION</a>
+        <img src="./images/close1437-removebg-preview.png" alt="" onclick="closeLinks()" id="close">
     </div>
 
     <div class="bodyPart">
         <h1>WELCOME</h1>
         <p class="p_1">Traditionals dishes with local products of highest quality</p>
     </div>
-    <div class="freshFood" id="freshFood">
+    <div id="food">
         <div class="f_1">
             <img src="./images/food-2-150x150.png" alt="">
             <div class="txt_1">
@@ -81,7 +81,7 @@
     </div>
 
 
-    <div class="aboutUs" id="aboutUs">
+    <div id="about">
         <div class="history">
             <h1>About US</h1>
             <hr>
@@ -102,7 +102,7 @@
 
 
 
-    <div class="menu" id="menu">
+    <div id="Menuu">
         <div class="headings">
             <h3>DISCOVER</h3>
             <h1>OUR MENU</h1>
@@ -155,7 +155,7 @@
 
 
 
-    <div class="gallery" id="gallery">
+    <div id="Gallery">
         <h2>GALLERY</h2>
         <hr>
         <div class="pictures">
@@ -170,8 +170,7 @@
         </div>
     </div>
 
-    <div class="lastPage" id="lastPage">
-
+    <div id="addresss">
         <div class="leftSide">
             <div class="address">
                 <h3>02, Kishanganj, Bihar 855107</h3>
@@ -181,14 +180,6 @@
                 <h5>OPEN HOURS:<br>SATURDAY-SUNDAY:12AM-10:30PM</h5>
             </div>
         </div>
-        <!-- <div class="address"> -->
-        <!-- <h3>02, Kishanganj, Bihar 855107</h3>
-        </div>
-
-        <div class="open">
-            <h5>OPEN HOURS:<br>SATURDAY-SUNDAY:12AM-10:30PM</h5>
-        </div> -->
-
         <div class="map">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3582.6640451591898!2d87.93794361744385!3d26.109883199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e517c71d0dbe39%3A0xe9a3048bccd92da5!2sZaki&#39;s%20Cafe!5e0!3m2!1sen!2sin!4v1687024814095!5m2!1sen!2sin"
