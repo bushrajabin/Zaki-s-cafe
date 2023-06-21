@@ -72,7 +72,8 @@ body {
     width: 22%;
 
 }
-#links2{
+
+#links2 {
     display: none;
 }
 
@@ -341,7 +342,7 @@ details[open]>summary {
 }
 
 
-#addresss{
+#addresss {
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -404,23 +405,12 @@ details[open]>summary {
     }
 
     .logo>img {
-        width: 50px;
+        width: 90px;
     }
 
-    .navLeft {
-        padding: 5px;
-    }
-
-    .navLeft>h3,
-    .navRight>h3 {
-        padding: 7px;
-        font-size: 10px;
-    }
-
+    .navLeft,
     .navRight {
-        width: auto;
-        padding: 6px;
-        margin: 8px;
+        display: none;
     }
 
     .links {
@@ -448,7 +438,7 @@ details[open]>summary {
         color: white;
         font-size: 16px;
     }
-    
+
     #close {
         display: flex;
         /* width: 20px; */
@@ -457,7 +447,7 @@ details[open]>summary {
         background-color: aliceblue;
     }
 
-    #links2>img{
+    #links2>img {
         width: 70px;
     }
 
@@ -486,9 +476,11 @@ details[open]>summary {
         color: antiquewhite;
     }
 
+    /* CSS FOR foooood */
     #food {
         display: flex;
         flex-direction: column;
+        /* padding: 0px; */
     }
 
 
@@ -497,7 +489,7 @@ details[open]>summary {
     .f_2 {
         display: flex;
         flex-direction: row;
-        margin: 5px;
+        margin: 2px;
         box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     }
 
@@ -512,13 +504,17 @@ details[open]>summary {
     .txt_1>p,
     .txt_2>p,
     .txt_3>p {
-        font-size: 10px;
+        font-size: 12px;
         text-align: center;
         font-style: italic;
         letter-spacing: 2px;
+        padding: 2px;
     }
 
+
+    /* CSS FOR ABOUTT */
     #about {
+        background-color: aliceblue;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -527,22 +523,19 @@ details[open]>summary {
 
     .history {
         width: 90%;
+        background-color: aliceblue;
     }
 
     .frontImg {
         width: auto;
-        padding: 6px;
+        /* padding: 6px; */
     }
 
     .frontImg>img {
         margin: 0px;
     }
 
-    .headings {
-        padding: 2px;
-    }
-
-
+    /* CSS FOR HEADINGS */
     .headings>h1,
     .headings>h3 {
         color: white;
@@ -557,35 +550,46 @@ details[open]>summary {
         width: 50%;
     }
 
+
+    /* CSS FOR DISHES */
     .dishes {
         padding: 0px;
     }
 
-    .pictures {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    #Gallery>h2 {
-        color: white;
-    }
-
+    /* CSS FOR BLOG */
     .blog>h3,
     h1,
     p {
         color: rgb(4, 0, 0);
     }
 
-    .pictures>img {
-        width: 87vw;
-        height: 80vw;
-        justify-content: center;
-        padding: 5px;
+
+
+    /* CSS FOR GALLERY */
+    #Gallery>h2 {
+        color: white;
     }
 
-    #addresss{
+    .pictures {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        /* align-items: center; */
+    }
+
+
+    .pictures>img {
+        width: 33vw;
+        height: 33vw;
+        margin: 0px;
+        padding: 0px;
+        /* justify-content: center; */
+        /* padding: 5px; */
+    }
+
+
+    /* VSS FOR ADDRESS */
+    #addresss {
         display: flex;
         flex-direction: column;
         padding: 10px;
@@ -622,6 +626,7 @@ details[open]>summary {
         width: 93vw;
 
     }
+
     /* #menuIcon {
         background: rgba(255, 255, 255, 0.2);
     } */
