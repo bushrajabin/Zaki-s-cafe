@@ -3,7 +3,6 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* background-image: url(./images/1046782.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -84,12 +83,10 @@ body {
     text-align: center;
     text-align: center;
     padding-top: 15%;
-    /* cursor: pointer; */
     padding-bottom: 20px;
 }
 
 .bodyPart>h1 {
-    /* font-size: 70px;s */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 6px;
     color: white;
@@ -136,13 +133,6 @@ body {
     height: 100px;
     object-fit: cover;
 }
-
-.txt_1,
-.txt_2,
-.txt_3 {
-    /* padding: 15px; */
-}
-
 .txt_1>h3,
 .txt_2>h3,
 .txt_3>h3 {
@@ -176,7 +166,6 @@ body {
 .history>h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 4px;
-    /* font-size: 30px; */
     padding: 10px;
     color: white;
 
@@ -228,8 +217,8 @@ body {
 
 .headings>h1 {
     font-size: 40px;
-    font-family: cursive;
-    letter-spacing: 2px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  letter-spacing: 2px;
 }
 
 .headings>hr {
@@ -255,7 +244,7 @@ body {
 .roll,
 .drink {
     padding: 20px;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
     letter-spacing: 2px;
     justify-content: center;
 }
@@ -285,7 +274,6 @@ details[open]>summary {
 /* CSS FPR BLOG */
 .blog {
     background-color: aliceblue;
-
     text-align: center;
     font-style: italic;
     letter-spacing: 2px;
@@ -294,7 +282,7 @@ details[open]>summary {
 
 .blog>h3 {
     font-size: 20px;
-    font-family: fantasy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
     letter-spacing: 4px;
     padding: 10px;
 }
@@ -312,7 +300,7 @@ details[open]>summary {
 
 #Gallery {
     text-align: center;
-    font-family: fantasy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
     letter-spacing: 3px;
     font-size: 25px;
 }
