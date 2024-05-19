@@ -3,7 +3,7 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-image: url(./images/1046782.jpg);
+    /* background-image: url(./images/1046782.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -80,9 +80,8 @@ body {
 /* CSS FOR BODYPART */
 .bodyPart {
     width: 100%;
-    background-image: url(./images/tomato-hamburger-patty-sandwich-wallpaper-preview.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/3327.jpg);
+    text-align: center;
     text-align: center;
     padding-top: 15%;
     cursor: pointer;
@@ -90,10 +89,10 @@ body {
 }
 
 .bodyPart>h1 {
-    font-size: 70px;
+    /* font-size: 70px;s */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 6px;
-    color: black;
+    color: white;
 }
 
 
@@ -102,6 +101,7 @@ body {
     font-size: 22px;
     letter-spacing: 4px;
     padding: 10px;
+    color: white;
 }
 
 /* CSS FOR FRESH FOOD
@@ -122,8 +122,9 @@ body {
 .f_2 {
     display: flex;
     flex-direction: row;
-    padding: 30px;
-    margin: 50px;
+    padding: 10px;
+    margin: 80px;
+    background-color: red;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
@@ -131,21 +132,21 @@ body {
 .f_1>img,
 .f_2>img,
 .f_3>img {
-    width: 120px;
-    padding: 3px;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .txt_1,
 .txt_2,
 .txt_3 {
-    padding: 15px;
+    /* padding: 15px; */
 }
 
 .txt_1>h3,
 .txt_2>h3,
 .txt_3>h3 {
     font-size: 20px;
-    padding: 2px;
     text-align: center;
 }
 
@@ -165,24 +166,24 @@ body {
     display: flex;
     flex-direction: row;
     cursor: pointer;
-}
+justify-content: space-around;}
 
 .history {
-    width: 50%;
+    width: 40%;
     padding: 20px;
 }
 
 .history>h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 4px;
-    font-size: 40px;
+    /* font-size: 30px; */
     padding: 10px;
     color: white;
 
 }
 
 .history>h4 {
-    font-size: 22px;
+    /* font-size: 22px; */
     padding: 4px;
     letter-spacing: 2px;
     font-style: italic;
@@ -190,12 +191,10 @@ body {
 }
 
 .history>p {
-    font-family: cursive;
-    font-size: 20px;
-    padding: 10px;
-    font-variant: small-caps;
+font-style: italic; 
+   font-size: 20px;
     letter-spacing: 2px;
-   
+
 }
 
 .frontImg {
@@ -344,6 +343,7 @@ details[open]>summary {
     width: 23vw;
     height: 22vw;
     padding: 10px;
+    object-fit: cover;
 }
 
 
@@ -401,13 +401,14 @@ details[open]>summary {
     display: none;
 }
 
-footer{
+footer {
     background-color: aliceblue;
     padding: 20px;
     text-align: center;
     font-size: 15px;
     font-family: cursive;
 }
+
 /* MEDIA QIERYYY */
 
 @media only screen and (max-width:1200px) {
@@ -492,7 +493,7 @@ footer{
     #food {
         display: flex;
         flex-direction: column;
-justify-content: center;
+        justify-content: center;
         /* padding: 0px; */
     }
 
@@ -507,7 +508,9 @@ justify-content: center;
         align-items: center;
     }
 
-    .f_1>img,.f_2>img,.f_3>img{
+    .f_1>img,
+    .f_2>img,
+    .f_3>img {
         width: 80px;
         height: 80px;
         padding: 0px;
@@ -544,13 +547,14 @@ justify-content: center;
         background-color: aliceblue;
     }
 
-    .history>h4{
+    .history>h4 {
         font-size: 18px;
     }
 
-    .history>p{
+    .history>p {
         font-size: 14px;
     }
+
     .frontImg {
         width: auto;
         /* padding: 6px; */
@@ -658,7 +662,7 @@ justify-content: center;
 
 
 
-    #more{
+    #more {
         display: none;
     }
 }
