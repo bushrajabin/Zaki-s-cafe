@@ -84,7 +84,7 @@ body {
     text-align: center;
     text-align: center;
     padding-top: 15%;
-    cursor: pointer;
+    /* cursor: pointer; */
     padding-bottom: 20px;
 }
 
@@ -165,8 +165,8 @@ body {
     background-color: aliceblue;
     display: flex;
     flex-direction: row;
-    cursor: pointer;
-justify-content: space-around;}
+    justify-content: space-around;
+}
 
 .history {
     width: 40%;
@@ -183,7 +183,6 @@ justify-content: space-around;}
 }
 
 .history>h4 {
-    /* font-size: 22px; */
     padding: 4px;
     letter-spacing: 2px;
     font-style: italic;
@@ -191,8 +190,8 @@ justify-content: space-around;}
 }
 
 .history>p {
-font-style: italic; 
-   font-size: 20px;
+    font-style: italic;
+    font-size: 20px;
     letter-spacing: 2px;
 
 }
@@ -212,6 +211,7 @@ font-style: italic;
 /* CSS FOR MENU */
 #Menuu {
     text-align: center;
+    background-color: aliceblue;
 }
 
 .headings {
@@ -222,7 +222,7 @@ font-style: italic;
     font-size: 16px;
     font-style: italic;
     letter-spacing: 3px;
-    color: white;
+    color: black;
     padding: 10px;
 }
 
@@ -240,7 +240,7 @@ font-style: italic;
     font-size: 21px;
     font-style: italic;
     padding: 20px;
-    color: white;
+    color: black;
 }
 
 /* CSS FOR SANDWICH */
@@ -270,25 +270,16 @@ summary {
 #img4 {
     width: 300px;
     height: 300px;
+    object-fit: cover;
 }
 
 details>summary {
     list-style-type: '▶️';
+    cursor: pointer;
 }
 
 details[open]>summary {
     list-style-type: '🔽';
-}
-
-.btn2 {
-    padding: 10px;
-
-}
-
-.btn2>button {
-    width: auto;
-    padding: 15px;
-    border: 4px solid black;
 }
 
 /* CSS FPR BLOG */
@@ -335,14 +326,14 @@ details[open]>summary {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .pictures>img {
-    width: 23vw;
-    height: 22vw;
-    padding: 10px;
+    width: 20vw;
+    height: 40vh;
+    padding: 3px;
+    margin: 5px;
     object-fit: cover;
 }
 
@@ -351,42 +342,20 @@ details[open]>summary {
     background-color: white;
     display: flex;
     flex-direction: row;
-}
-
-.leftSide {
-    width: 50%;
-    display: flex;
-    padding: 20px;
-}
-
-.address {
-    width: 50%;
-    font-size: 20px;
-    padding: 20px;
-    margin: 20px;
-    font-size: 20px;
-    font-family: cursive;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    justify-content: center;
 }
 
 .open {
-    width: 50%;
-    padding: 10px;
     margin: 20px;
     text-align: center;
     font-size: 20px;
-    font-family: cursive;
     letter-spacing: 2px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-}
-
-.map {
-    width: 50%;
 }
 
 .map>iframe {
-    width: 48vw;
+    width: 40vw;
     height: 300px;
+    margin: 20px;
 }
 
 /* CSS FOR MENU ICON */
@@ -396,7 +365,6 @@ details[open]>summary {
     display: none;
 }
 
-
 #close {
     display: none;
 }
@@ -405,8 +373,7 @@ footer {
     background-color: aliceblue;
     padding: 20px;
     text-align: center;
-    font-size: 15px;
-    font-family: cursive;
+    font-size: 10px;
 }
 
 /* MEDIA QIERYYY */
@@ -434,7 +401,6 @@ footer {
 
     #links2 {
         background-color: black;
-        /* display: flex; */
         flex-direction: column;
         padding: 40px;
         font-size: 20px;
@@ -454,7 +420,6 @@ footer {
 
     #close {
         display: flex;
-        /* width: 20px; */
         margin-left: 20px;
         margin: 10px;
         background-color: aliceblue;
@@ -494,7 +459,6 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* padding: 0px; */
     }
 
 
@@ -557,7 +521,6 @@ footer {
 
     .frontImg {
         width: auto;
-        /* padding: 6px; */
     }
 
     .frontImg>img {
@@ -567,12 +530,13 @@ footer {
     /* CSS FOR HEADINGS */
     .headings>h1,
     .headings>h3 {
-        color: white;
+        color: black;
+        font-size: 18px;
     }
 
     .headings>p {
         font-size: 13px;
-        color: white;
+        color: black;
     }
 
     .headings>hr {
@@ -590,30 +554,27 @@ footer {
     h1,
     p {
         color: rgb(4, 0, 0);
+        font-size: 17px;
     }
-
-
 
     /* CSS FOR GALLERY */
     #Gallery>h2 {
-        color: white;
+        color: black;
     }
 
     .pictures {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        /* align-items: center; */
     }
 
 
     .pictures>img {
-        width: 33vw;
-        height: 33vw;
+        width: 30vw;
+        height: 30vw;
         margin: 0px;
-        padding: 0px;
-        /* justify-content: center; */
-        /* padding: 5px; */
+        padding: 3px;
+        justify-content: center;
     }
 
 
@@ -636,31 +597,24 @@ footer {
     .address {
         padding: 3px;
         margin: 4px;
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .open {
         padding: 3px;
         margin: 4px;
-        font-size: 17px;
-
+        font-size: 10px;
     }
 
-    .map {
-        width: 95%;
-        padding: 10px;
+    .leftSide>h3 {
+        font-size: 10px;
     }
+
 
     .map>iframe {
         width: 93vw;
-
+        margin: 0px;
     }
-
-    /* #menuIcon {
-        background: rgba(255, 255, 255, 0.2);
-    } */
-
-
 
     #more {
         display: none;
